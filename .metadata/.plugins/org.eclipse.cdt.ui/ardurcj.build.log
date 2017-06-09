@@ -1,0 +1,21 @@
+
+**** Build of configuration Release for project ardurcj ****
+
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega328p ardurcj.elf
+AVR Memory Usage
+----------------
+Device: atmega328p
+
+Program:    6406 bytes (19.5% Full)
+(.text + .data + .bootloader)
+
+Data:        654 bytes (31.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+**** Build Finished ****

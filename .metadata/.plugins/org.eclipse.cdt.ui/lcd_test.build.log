@@ -1,0 +1,43 @@
+
+**** Build of configuration Release for project lcd_test ****
+
+make all 
+Building file: ../lcd_test.cpp
+Invoking: AVR C++ Compiler
+avr-g++ -I"C:\arduino-1.0\hardware\arduino\cores\arduino" -I"C:\arduino-1.0\hardware\arduino\variants\standard" -I"C:\cygwin\home\chris\workspaces\arduino\lcd_test" -D__IN_ECLIPSE__=1 -DARDUINO=100 -Wall -Os -ffunction-sections -fdata-sections -fno-exceptions -g -mmcu=atmega328p -DF_CPU=16000000UL -MMD -MP -MF"lcd_test.d" -MT"lcd_test.d" -c -o "lcd_test.o" -x c++ "../lcd_test.cpp"
+Finished building: ../lcd_test.cpp
+ 
+Building target: lcd_test.elf
+Invoking: AVR C++ Linker
+avr-gcc -Os -Wl,--gc-sections  -L"C:\cygwin\home\chris\workspaces\arduino\Arduino_Uno/Release" -mmcu=atmega328p -o"lcd_test.elf"  ./lcd_test.o   -l"Arduino_Uno" -lm
+Finished building target: lcd_test.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S lcd_test.elf  >"lcd_test.lss"
+Finished building: lcd_test.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -O ihex lcd_test.elf  "lcd_test.hex"
+Finished building: lcd_test.hex
+ 
+Create eeprom image (ihex format)
+avr-objcopy -j .eeprom --no-change-warnings --change-section-lma .eeprom=0 -O ihex lcd_test.elf  "lcd_test.eep"
+Finished building: lcd_test.eep
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega328p lcd_test.elf
+AVR Memory Usage
+----------------
+Device: atmega328p
+
+Program:     466 bytes (1.4% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+**** Build Finished ****

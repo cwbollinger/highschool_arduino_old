@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/102/trunk/ardurcj
+END
+ardurcj.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/85/trunk/ardurcj/ardurcj.h
+END
+TWI4NXT.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/70/trunk/ardurcj/TWI4NXT.cpp
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/70/trunk/ardurcj/.project
+END
+.cproject
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/70/trunk/ardurcj/.cproject
+END
+NXTDigital.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/70/trunk/ardurcj/NXTDigital.cpp
+END
+NXTI2C.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/102/trunk/ardurcj/NXTI2C.cpp
+END
+Diagnostics.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/70/trunk/ardurcj/Diagnostics.cpp
+END
+NXTServoOutput.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/70/trunk/ardurcj/NXTServoOutput.cpp
+END
+ardurcj.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/102/trunk/ardurcj/ardurcj.cpp
+END
+NXTAnalog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/102/trunk/ardurcj/NXTAnalog.cpp
+END

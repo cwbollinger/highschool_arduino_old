@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CommitComments>	<CommitComment>more tweaks to analog reading. Confirmed working arduino-NXT communication.</CommitComment>
+	<CommitComment>code tweaked to allow arduino reading of analog sensors. Also returns those values over I2C to the NXT</CommitComment>
+	<CommitComment>Allow project specific prefs</CommitComment>
+</CommitComments>

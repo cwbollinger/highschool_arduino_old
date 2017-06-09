@@ -1,0 +1,8 @@
+
+**** Clean-only build of configuration Release for project Blink ****
+
+make clean 
+rm -rf  ./Blink.o  Blink.eep  Blink.hex  Blink.lss  ./Blink.d  sizedummy  Blink.elf
+ 
+
+**** Build Finished ****

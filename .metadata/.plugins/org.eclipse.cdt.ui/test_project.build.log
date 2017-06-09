@@ -1,0 +1,43 @@
+
+**** Build of configuration Release for project test_project ****
+
+make all 
+Building file: ../test_project.cpp
+Invoking: AVR C++ Compiler
+avr-g++ -I"C:\arduino-1.0\hardware\arduino\cores\arduino" -I"C:\arduino-1.0\hardware\arduino\variants\standard" -I"C:\cygwin\home\chris\workspaces\arduino\test_project" -D__IN_ECLIPSE__=1 -DARDUINO=100 -Wall -Os -ffunction-sections -fdata-sections -fno-exceptions -g -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"test_project.d" -MT"test_project.d" -c -o "test_project.o" -x c++ "../test_project.cpp"
+Finished building: ../test_project.cpp
+ 
+Building target: test_project.elf
+Invoking: AVR C++ Linker
+avr-gcc -Os -Wl,--gc-sections  -L"C:\cygwin\home\chris\workspaces\arduino\Arduino_Uno/Release" -mmcu=atmega16 -o"test_project.elf"  ./test_project.o   -l"Arduino_Uno" -lm
+Finished building target: test_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S test_project.elf  >"test_project.lss"
+Finished building: test_project.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -O ihex test_project.elf  "test_project.hex"
+Finished building: test_project.hex
+ 
+Create eeprom image (ihex format)
+avr-objcopy -j .eeprom --no-change-warnings --change-section-lma .eeprom=0 -O ihex test_project.elf  "test_project.eep"
+Finished building: test_project.eep
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 test_project.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     446 bytes (2.7% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+**** Build Finished ****
